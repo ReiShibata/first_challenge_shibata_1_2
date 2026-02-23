@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/user/ws/src/first_challenge_shibata/build/first_challenge_shibata/first_challenge_node" "TARGETS" "first_challenge_node" "DESTINATION" "lib/first_challenge_shibata")

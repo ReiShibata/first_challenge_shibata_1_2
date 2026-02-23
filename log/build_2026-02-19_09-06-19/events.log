@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.000492] (first_challenge_shibata) JobQueued: {'identifier': 'first_challenge_shibata', 'dependencies': OrderedDict()}
+[0.000529] (first_challenge_shibata) JobStarted: {'identifier': 'first_challenge_shibata'}
+[0.023157] (first_challenge_shibata) JobProgress: {'identifier': 'first_challenge_shibata', 'progress': 'cmake'}
+[0.024503] (first_challenge_shibata) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ws/src/first_challenge_shibata', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata'], 'cwd': '/home/user/ws/src/first_challenge_shibata/build/first_challenge_shibata', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ws'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/home/user/ws'), ('COLCON_PREFIX_PATH', '/home/user/ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ws/install/turtlesim_controller_py:/home/user/ws/install/turtlesim_controller:/home/user/ws/install/first_challenge_shibata:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/user/ws/src/first_challenge_shibata/build/first_challenge_shibata'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/user/ws/build/turtlesim_controller_py:/home/user/ws/install/turtlesim_controller_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/ws/install/turtlesim_controller:/home/user/ws/install/first_challenge_shibata:/home/user/ws/install/turtlesim_controller_py:/opt/ros/humble')]), 'shell': False}
+[0.102383] (-) TimerEvent: {}
+[0.203268] (-) TimerEvent: {}
+[0.303801] (-) TimerEvent: {}
+[0.314408] (first_challenge_shibata) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.406515] (-) TimerEvent: {}
+[0.429305] (first_challenge_shibata) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.443322] (first_challenge_shibata) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.506711] (-) TimerEvent: {}
+[0.518803] (first_challenge_shibata) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.523156] (first_challenge_shibata) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.524548] (first_challenge_shibata) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.525811] (first_challenge_shibata) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.529321] (first_challenge_shibata) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.599008] (first_challenge_shibata) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.603719] (first_challenge_shibata) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.603940] (first_challenge_shibata) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.604594] (first_challenge_shibata) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.606865] (-) TimerEvent: {}
+[0.611254] (first_challenge_shibata) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.707440] (-) TimerEvent: {}
+[0.748316] (first_challenge_shibata) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.808167] (-) TimerEvent: {}
+[0.814144] (first_challenge_shibata) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.870783] (first_challenge_shibata) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.912043] (-) TimerEvent: {}
+[0.938301] (first_challenge_shibata) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.947655] (first_challenge_shibata) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.962114] (first_challenge_shibata) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.986214] (first_challenge_shibata) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.010047] (first_challenge_shibata) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.012245] (-) TimerEvent: {}
+[1.064652] (first_challenge_shibata) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.114467] (-) TimerEvent: {}
+[1.129313] (first_challenge_shibata) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.135050] (first_challenge_shibata) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.214964] (-) TimerEvent: {}
+[1.247942] (first_challenge_shibata) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.272915] (first_challenge_shibata) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.304740] (first_challenge_shibata) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.316071] (-) TimerEvent: {}
+[1.320032] (first_challenge_shibata) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.402043] (first_challenge_shibata) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.402320] (first_challenge_shibata) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.416436] (-) TimerEvent: {}
+[1.463580] (first_challenge_shibata) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.464817] (first_challenge_shibata) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.516820] (-) TimerEvent: {}
+[1.519768] (first_challenge_shibata) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.596675] (first_challenge_shibata) StderrLine: {'line': b'\x1b[0mIn this package, headers install destination is set to `include` by ament_auto_package. It is recommended to install `include/first_challenge_shibata` instead and will be the default behavior of ament_auto_package from ROS 2 Kilted Kaiju. On distributions before Kilted, ament_auto_package behaves the same way when you use USE_SCOPED_HEADER_INSTALL_DIR option.\x1b[0m\n'}
+[1.606902] (first_challenge_shibata) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.616719] (first_challenge_shibata) StdoutLine: {'line': b'-- Generating done\n'}
+[1.617188] (-) TimerEvent: {}
+[1.619189] (first_challenge_shibata) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ws/src/first_challenge_shibata/build/first_challenge_shibata\n'}
+[1.628082] (first_challenge_shibata) CommandEnded: {'returncode': 0}
+[1.628764] (first_challenge_shibata) JobProgress: {'identifier': 'first_challenge_shibata', 'progress': 'build'}
+[1.629329] (first_challenge_shibata) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ws/src/first_challenge_shibata/build/first_challenge_shibata', '--', '-j16', '-l16'], 'cwd': '/home/user/ws/src/first_challenge_shibata/build/first_challenge_shibata', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ws'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/home/user/ws'), ('COLCON_PREFIX_PATH', '/home/user/ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ws/install/turtlesim_controller_py:/home/user/ws/install/turtlesim_controller:/home/user/ws/install/first_challenge_shibata:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/user/ws/src/first_challenge_shibata/build/first_challenge_shibata'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/user/ws/build/turtlesim_controller_py:/home/user/ws/install/turtlesim_controller_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/ws/install/turtlesim_controller:/home/user/ws/install/first_challenge_shibata:/home/user/ws/install/turtlesim_controller_py:/opt/ros/humble')]), 'shell': False}
+[1.665135] (first_challenge_shibata) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/first_challenge_node.dir/src/first_challenge.cpp.o\x1b[0m\n'}
+[1.665769] (first_challenge_shibata) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/first_challenge_node.dir/src/first_challenge_node.cpp.o\x1b[0m\n'}
+[1.718501] (-) TimerEvent: {}
+[1.827697] (-) TimerEvent: {}
+[1.938160] (-) TimerEvent: {}
+[2.038886] (-) TimerEvent: {}
+[2.141139] (-) TimerEvent: {}
+[2.250535] (-) TimerEvent: {}
+[2.359969] (-) TimerEvent: {}
+[2.469376] (-) TimerEvent: {}
+[2.578748] (-) TimerEvent: {}
+[2.689176] (-) TimerEvent: {}
+[2.799431] (-) TimerEvent: {}
+[2.909934] (-) TimerEvent: {}
+[3.020496] (-) TimerEvent: {}
+[3.126310] (-) TimerEvent: {}
+[3.236925] (-) TimerEvent: {}
+[3.347511] (-) TimerEvent: {}
+[3.448351] (-) TimerEvent: {}
+[3.549116] (-) TimerEvent: {}
+[3.658113] (-) TimerEvent: {}
+[3.759569] (-) TimerEvent: {}
+[3.867907] (-) TimerEvent: {}
+[3.978352] (-) TimerEvent: {}
+[4.079106] (-) TimerEvent: {}
+[4.187372] (-) TimerEvent: {}
+[4.288103] (-) TimerEvent: {}
+[4.397784] (-) TimerEvent: {}
+[4.508320] (-) TimerEvent: {}
+[4.618912] (-) TimerEvent: {}
+[4.729386] (-) TimerEvent: {}
+[4.839951] (-) TimerEvent: {}
+[4.950432] (-) TimerEvent: {}
+[5.060974] (-) TimerEvent: {}
+[5.171435] (-) TimerEvent: {}
+[5.277618] (-) TimerEvent: {}
+[5.382497] (-) TimerEvent: {}
+[5.493054] (-) TimerEvent: {}
+[5.603719] (-) TimerEvent: {}
+[5.714272] (-) TimerEvent: {}
+[5.823568] (-) TimerEvent: {}
+[5.930320] (-) TimerEvent: {}
+[6.039781] (-) TimerEvent: {}
+[6.149189] (-) TimerEvent: {}
+[6.258503] (-) TimerEvent: {}
+[6.368908] (-) TimerEvent: {}
+[6.478367] (-) TimerEvent: {}
+[6.586619] (-) TimerEvent: {}
+[6.694851] (-) TimerEvent: {}
+[6.802306] (-) TimerEvent: {}
+[6.911679] (-) TimerEvent: {}
+[7.012944] (-) TimerEvent: {}
+[7.122324] (-) TimerEvent: {}
+[7.231815] (-) TimerEvent: {}
+[7.337888] (-) TimerEvent: {}
+[7.447337] (-) TimerEvent: {}
+[7.555829] (-) TimerEvent: {}
+[7.665606] (-) TimerEvent: {}
+[7.776243] (-) TimerEvent: {}
+[7.887000] (-) TimerEvent: {}
+[7.997751] (-) TimerEvent: {}
+[8.108441] (-) TimerEvent: {}
+[8.219054] (-) TimerEvent: {}
+[8.329503] (-) TimerEvent: {}
+[8.439978] (-) TimerEvent: {}
+[8.550618] (-) TimerEvent: {}
+[8.661082] (-) TimerEvent: {}
+[8.771526] (-) TimerEvent: {}
+[8.881915] (-) TimerEvent: {}
+[8.992328] (-) TimerEvent: {}
+[9.102773] (-) TimerEvent: {}
+[9.213203] (-) TimerEvent: {}
+[9.323655] (-) TimerEvent: {}
+[9.434155] (-) TimerEvent: {}
+[9.544623] (-) TimerEvent: {}
+[9.650062] (-) TimerEvent: {}
+[9.759748] (-) TimerEvent: {}
+[9.870242] (-) TimerEvent: {}
+[9.980885] (-) TimerEvent: {}
+[10.086605] (-) TimerEvent: {}
+[10.197069] (-) TimerEvent: {}
+[10.305239] (-) TimerEvent: {}
+[10.407044] (-) TimerEvent: {}
+[10.517509] (-) TimerEvent: {}
+[10.622116] (-) TimerEvent: {}
+[10.732644] (-) TimerEvent: {}
+[10.843035] (-) TimerEvent: {}
+[10.951119] (-) TimerEvent: {}
+[11.061743] (-) TimerEvent: {}
+[11.166710] (-) TimerEvent: {}
+[11.277263] (-) TimerEvent: {}
+[11.387810] (-) TimerEvent: {}
+[11.497192] (-) TimerEvent: {}
+[11.600433] (-) TimerEvent: {}
+[11.703782] (-) TimerEvent: {}
+[11.814455] (-) TimerEvent: {}
+[11.924447] (-) TimerEvent: {}
+[12.033017] (-) TimerEvent: {}
+[12.133915] (-) TimerEvent: {}
+[12.235744] (-) TimerEvent: {}
+[12.346216] (-) TimerEvent: {}
+[12.455134] (-) TimerEvent: {}
+[12.562274] (-) TimerEvent: {}
+[12.672960] (-) TimerEvent: {}
+[12.776202] (-) TimerEvent: {}
+[12.886951] (-) TimerEvent: {}
+[12.929849] (first_challenge_shibata) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable first_challenge_node\x1b[0m\n'}
+[12.988393] (-) TimerEvent: {}
+[13.093408] (-) TimerEvent: {}
+[13.167149] (first_challenge_shibata) StdoutLine: {'line': b'[100%] Built target first_challenge_node\n'}
+[13.176990] (first_challenge_shibata) CommandEnded: {'returncode': 0}
+[13.178195] (first_challenge_shibata) JobProgress: {'identifier': 'first_challenge_shibata', 'progress': 'install'}
+[13.185040] (first_challenge_shibata) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ws/src/first_challenge_shibata/build/first_challenge_shibata'], 'cwd': '/home/user/ws/src/first_challenge_shibata/build/first_challenge_shibata', 'env': OrderedDict([('HOSTNAME', 'docker-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ws'), ('ROS_PYTHON_VERSION', '3'), ('_colcon_cd_root', '/home/user/ws'), ('COLCON_PREFIX_PATH', '/home/user/ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ws/install/turtlesim_controller_py:/home/user/ws/install/turtlesim_controller:/home/user/ws/install/first_challenge_shibata:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('PWD', '/home/user/ws/src/first_challenge_shibata/build/first_challenge_shibata'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/user/ws/build/turtlesim_controller_py:/home/user/ws/install/turtlesim_controller_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/ws/install/turtlesim_controller:/home/user/ws/install/first_challenge_shibata:/home/user/ws/install/turtlesim_controller_py:/opt/ros/humble')]), 'shell': False}
+[13.189758] (first_challenge_shibata) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[13.190022] (first_challenge_shibata) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[13.192065] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/share/first_challenge_shibata//launch/first_challenge.launch.xml\n'}
+[13.193601] (-) TimerEvent: {}
+[13.199199] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/include/first_challenge/first_challenge.hpp\n'}
+[13.206317] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/lib/first_challenge_shibata/first_challenge_node\n'}
+[13.213260] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/share/ament_index/resource_index/package_run_dependencies/first_challenge_shibata\n'}
+[13.220686] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/share/ament_index/resource_index/parent_prefix_path/first_challenge_shibata\n'}
+[13.227383] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/share/first_challenge_shibata/environment/ament_prefix_path.sh\n'}
+[13.233324] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/share/first_challenge_shibata/environment/ament_prefix_path.dsv\n'}
+[13.239736] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/share/first_challenge_shibata/environment/path.sh\n'}
+[13.246315] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/share/first_challenge_shibata/environment/path.dsv\n'}
+[13.252490] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/share/first_challenge_shibata/local_setup.bash\n'}
+[13.259621] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/share/first_challenge_shibata/local_setup.sh\n'}
+[13.265690] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/share/first_challenge_shibata/local_setup.zsh\n'}
+[13.272151] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/share/first_challenge_shibata/local_setup.dsv\n'}
+[13.279613] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/share/first_challenge_shibata/package.dsv\n'}
+[13.286244] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/share/ament_index/resource_index/packages/first_challenge_shibata\n'}
+[13.293244] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/share/first_challenge_shibata/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.293786] (-) TimerEvent: {}
+[13.301033] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/share/first_challenge_shibata/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.308633] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/share/first_challenge_shibata/cmake/first_challenge_shibataConfig.cmake\n'}
+[13.316486] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/share/first_challenge_shibata/cmake/first_challenge_shibataConfig-version.cmake\n'}
+[13.323450] (first_challenge_shibata) StdoutLine: {'line': b'-- Symlinking: /home/user/ws/src/first_challenge_shibata/install/first_challenge_shibata/share/first_challenge_shibata/package.xml\n'}
+[13.331489] (first_challenge_shibata) CommandEnded: {'returncode': 0}
+[13.356042] (first_challenge_shibata) JobEnded: {'identifier': 'first_challenge_shibata', 'rc': 0}
+[13.357265] (-) EventReactorShutdown: {}

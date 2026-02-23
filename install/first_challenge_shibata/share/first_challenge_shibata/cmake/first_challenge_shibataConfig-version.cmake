@@ -1,0 +1,1 @@
+/home/user/ws/src/first_challenge_shibata/build/first_challenge_shibata/ament_cmake_core/first_challenge_shibataConfig-version.cmake
